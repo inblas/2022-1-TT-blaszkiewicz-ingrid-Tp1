@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ 
+    margin: 0px;
+    padding:0px;
+}
+#encabezado{
+	background-color:#DEC68D;
+	height: 100%;
+	width: 100%;
+	margin-left: 0px;
+}
+body {
+	font-family: Century Gothic, sans-serif;  
+	width: 1200px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	background-color: #F7EACD;
+}
+header {
+	background-color: #DEC68D;
+	padding: 10px 0 0 10px;
+	height: 250px;
+	width: 1200px;
+	display: flex;
+}
+.nombre{
+	height: 275px;
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+h3 {
+	background-color: #DEC68D;
+	height: 100%;
+	width: 100%;
+	margin: 30px 0 5px 0;
+	font-size: 30px;
+	padding-left: 10px;
+}
+.texto{
+	font-size: 25px;
+	margin-left: 10px;
+}
+h4{
+	font-size: 25px;
+	font-weight: 700px;
+	margin-left: 10px;
+}
+h1 {
+	font-family: Ginebra, Gotham, Sans-serif;
+	padding: 0 0 0 10px;
+	font-size: 50px;
+}
+h2 {
+	 
+	padding: 0 0 20px 10px;
+	margin-bottom: 10px;
+	font-weight: 200;
+	font-size: 29px;
+}
+ul {
+	list-style-type: none;
+}
+a {
+	color: black;
+	text-decoration:none;
+}
+a:hover {
+	color: #DEC68D;
+	font-size: 120%;
+}
+.iconos {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.behance{
+	padding-right: 50px;
+	padding-top: 37px
+}
